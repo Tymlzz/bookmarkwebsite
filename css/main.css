@@ -1,0 +1,439 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+* {
+    
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    /* height: 550px; */
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 546.5px;
+    max-width: max-content;
+}
+
+.main-nav {
+    display: flex;
+    margin-top: 1.5em;
+    justify-content: center;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+nav.nav-items {
+    display: flex;
+    margin-left: 15em;
+
+}
+.nav-items ul {
+    display: flex;
+    justify-items: center;
+}
+nav ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4.5em;
+}
+ul li a {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: hsl(229, 8%, 60%);
+    letter-spacing: 2px;
+}
+.login-btn {
+    margin-left: 3.5em;
+    background-color: hsl(0, 94%, 66%);
+    padding: 8px 25px 8px 25px;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(172, 168, 168); 
+    
+    font-size: 15px;
+    text-transform: uppercase;
+
+    
+}
+.logo-image-wrapper {
+    margin: 25px;
+    margin-left: 1em;
+    margin-top: 26px;
+}
+
+.caption-container {
+    display: flex;
+    margin-top: 3.75em;
+    text-align: center;
+    width: 100%;
+    height: 375px;
+}
+
+.caption-item-1 {
+    margin-top: 2.0em;
+    width: 50%;
+    margin-left: 9em;
+}
+.caption-item-1 h1 {
+    margin-top: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 450px;
+    text-align: initial;
+}
+.caption-item-1 p {
+    margin-top: 2.0em;
+    margin-bottom: 1.65em;
+    color: hsl(229, 8%, 60%);
+    font-weight: 300;
+    width: 450px;
+    text-align: initial;
+}
+.btn-wrapper {
+    text-align: initial;
+}
+.btn-wrapper .btn-1 {
+    padding: 13px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: hsl(231, 69%, 60%);
+    font-weight: 500;
+}
+.btn-wrapper .btn-2 {
+    padding: 13px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    box-shadow:  2px 1px 2px rgb(172, 168, 168);       
+}
+.caption-item-2 {
+    background-color: hsl(231, 69%, 60%);
+    border-radius: 0em 0em 0em 30em ;
+    width: 50%;
+    height: 250px;
+    position: relative;
+    top: 3.2em;
+    margin-left: 20%;
+    margin-top: 4em;
+    margin-bottom: 20%;
+}
+.caption-item-2 img {
+    width: 100%;
+    margin-top: 12px;
+    position: relative;
+    top: -96px;
+    left: -8em;
+    
+}
+main {
+    margin-top: 3rem;
+    
+}
+.objective-wrapper {
+    margin-bottom: 1.5rem;
+}
+.objective {
+    width: 480px;
+    text-align: center;
+    margin: auto;
+
+}
+.objective h2 {
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+}
+.objective p {
+    margin-bottom: 2.75em;
+    color: hsl(229, 8%, 60%);
+    letter-spacing: 0.1px;
+    line-height: 1.5em;
+}
+
+.objective-links-container {
+    text-align: center;
+    width: 480px;
+    margin: auto;
+}
+
+.objective-links a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: hsl(229, 8%, 60%);
+    font-size: 300;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: .95em;
+}
+
+.line {
+    border-bottom: 1px solid gray;
+     display: block;  
+     margin-top: 18px;
+}
+.bookmark-container {
+    margin-top: 3rem;
+    margin-bottom: 4em;
+    display: flex;
+    width: 80%;
+
+}
+.bookmark-image-wrapper {
+    background-color: hsl(231, 69%, 60%);
+    border-radius: 0em 0em 30em 0em ;
+    position: relative;
+    top: 3.2em;
+    margin-top: 2em;
+    width: 50%;
+    height: 250px;
+    
+}
+.bookmark-image-wrapper img { 
+    margin-left: 8em;
+    width: 75%;
+    margin-top: 12px;
+    position: relative;
+    top: -96px;
+    left: 1em;
+}
+.bookmark-note {
+    width: 30%;
+    margin-left: 10em;
+    margin-bottom: 5em;
+    margin-top: 1.2em;
+}
+.bookmark-note h2{
+    margin: 3rem 0rem 2rem 0rem;
+    font-weight: 500;
+}
+.bookmark-note p {
+    width: 400px;
+    margin: 0px 0px 15px 0px;
+    font-weight: 300;
+}
+.bookmark-note button {
+    padding: 12px;
+    background-color: hsl(231, 69%, 60%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 13px;
+    font-weight: 500;
+}
+
+.all-extensions-container {
+    text-align: center;
+
+}
+.all-extensions-container h2 {
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+
+}
+.all-extensions-container p{
+    width: 600px;
+    margin-top: 20px;
+    margin: auto;
+    color: hsl(229, 8%, 60%);
+    letter-spacing: 0.1px;
+    line-height: 1.5em;
+}
+.all-extensions {
+    display: flex; 
+    width: 700px; 
+    margin: auto;
+    margin-bottom: 4.5em;
+}
+.chrome-wrapper {
+    margin-right: 35px;
+    margin-top: 25px;
+    width: 33%;
+    height: 272px;
+    /* border: 1px solid; */
+    border-radius: unset;
+    box-shadow: 0px 1px 10px rgb(171, 171, 188);
+    /* box-shadow:  0px 0px 0px rgba(177, 224, 230, 0.068), 
+     -10px 8px 15px rgb(171, 171, 188), 10px 8px 15px rgb(171, 171, 188); */
+}
+
+.chrome-wrapper img {
+    width: 49%;
+    margin-top: 27px;
+}
+.chrome-wrapper h3{
+    padding: 12px;
+    font-weight: 500;    
+}
+ .chrome-wrapper h6 {
+    font-weight: 500;
+    
+}
+.chrome-wrapper .dotted-bg {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.chrome-wrapper button {
+    font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 12px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(231, 69%, 60%);
+}
+
+.firefox {
+    margin-top: 4em;
+}
+.opera {
+    margin-top: 6em;
+    height: 284px;
+    width: 34%;
+}
+.FAQs-container {
+    
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1em;
+    
+}
+.FAQs-container h2 {
+    margin-bottom: 1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+}
+.FAQs-container p{
+    color: hsl(229, 8%, 60%);
+    letter-spacing: 0.1px;
+    line-height: 1.5em;
+    margin-bottom: 35px;
+}
+.sparation-line {
+    border-bottom: 1px solid gray;
+     display: block; 
+}
+.questions {
+    text-align: left;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+.questions .icon-drop {
+    margin-left: auto;
+}
+
+.more-info {
+    text-transform: capitalize;
+    margin: 4em;
+    padding-top: 12px;
+    padding-bottom: 12px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: hsl(231, 69%, 60%);
+    font-weight: 500;
+
+}
+
+footer {
+    background-color: hsl(231, 69%, 60%);
+    
+
+}
+
+.current-users {
+    height: 300px;
+    text-align: center;
+}
+.contact-us {
+    width: 500px;
+    margin: auto;
+    color: #fff;
+   padding: 4em;
+   
+}
+.contact-us p {
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+.contact-us h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.contact-us .email {
+    padding: 12px 10px;
+    width: 60%;
+    border: none;
+    border-radius: 4px;
+
+}
+.contact-us .btn {
+    padding: 12px 10px;
+    border-radius: 4px;
+    border: none;
+    background-color:hsl(0, 94%, 66%) ;
+    color: #fff;
+    margin-left: 12px;
+    text-transform: capitalize;
+   
+}
+.secondary-nav {
+    background-color: hsl(229, 31%, 21%); 
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.logo-bookmark-footer{ 
+    margin-left: 8.5em;
+    background-color: #fff;
+}
+.footer-nav-anchors {
+    display: flex;
+}
+.footer-nav-anchors li{
+ list-style: none;
+ margin-left: 5em;
+}
+.footer-nav-anchors li a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.icon-container {
+    margin-left: 15em;
+}
+.icon-2 {
+    margin-left: 3.5em;
+}
